@@ -21,6 +21,6 @@ class LocalCourse(Course, ILocalCourse):
         self.__lab = lab
 
     def __str__(self):
-        return f'LocalCourse: Name:{self.__name}; Lab: {self.__lab}; ' \
-               f'Teacher={self.__teacher}; Topics={self.__topics}'
+        return f'LocalCourse: Name:{self.name}; Lab: {self.lab}; ' \
+               f'Teacher={self.teacher}; Topics={self.topics}'
 

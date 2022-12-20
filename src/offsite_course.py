@@ -22,6 +22,6 @@ class OffsiteCourse(Course, IOffsiteCourse):
         self.__town = town
 
     def __str__(self):
-        return f'OffsiteCourse: Name:{self.__name}; Town: {self.__town}; ' \
-               f'Teacher={self.__teacher}; Topics={self.__topics}'
+        return f'OffsiteCourse: Name:{self.name}; Town: {self.town}; ' \
+               f'Teacher={self.teacher}; Topics={self.topics}'
 
